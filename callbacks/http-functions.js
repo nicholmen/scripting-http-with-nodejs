@@ -10,7 +10,7 @@
   var https = require('https');    
 
 
-  module.exports = function getHtml (options, callback) {
+  module.exports = function getHTML (options, callback) {
     var body = ''
       
     //http response callback
@@ -34,7 +34,3 @@
   }
 
 
-  var requestOptions = {
-    host: 'sytantris.github.io',
-    path: '/http-examples/step4.html'
-  };
